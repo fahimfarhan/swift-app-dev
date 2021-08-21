@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10535A3126D15E19001C72F9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10535A3026D15E19001C72F9 /* DailyScrum.swift */; };
+		10535A3426D15FE6001C72F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10535A3326D15FE6001C72F9 /* CardView.swift */; };
 		AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA65BF4424F4605F007E4A1B /* Color+Codable.swift */; };
 		AA8ACE8424F44E01007DA4D8 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */; };
 		AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ACE8524F44E01007DA4D8 /* MeetingView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		10535A3026D15E19001C72F9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		10535A3326D15FE6001C72F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AA65BF4424F4605F007E4A1B /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		AA8ACE8024F44E01007DA4D8 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				AA8ACE8724F44E03007DA4D8 /* Assets.xcassets */,
 				AA8ACE8C24F44E03007DA4D8 /* Info.plist */,
 				AA8ACE8924F44E03007DA4D8 /* Preview Content */,
+				10535A3326D15FE6001C72F9 /* CardView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */,
 				AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */,
 				AA8ACE8424F44E01007DA4D8 /* ScrumdingerApp.swift in Sources */,
+				10535A3426D15FE6001C72F9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
