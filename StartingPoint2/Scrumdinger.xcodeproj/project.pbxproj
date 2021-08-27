@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10535A3126D15E19001C72F9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10535A3026D15E19001C72F9 /* DailyScrum.swift */; };
-		10535A3426D15FE6001C72F9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10535A3326D15FE6001C72F9 /* CardView.swift */; };
+		103CE87026D9719000EBAED4 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CE86F26D9719000EBAED4 /* DailyScrum.swift */; };
 		AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA65BF4424F4605F007E4A1B /* Color+Codable.swift */; };
 		AA8ACE8424F44E01007DA4D8 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */; };
 		AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ACE8524F44E01007DA4D8 /* MeetingView.swift */; };
@@ -18,8 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10535A3026D15E19001C72F9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		10535A3326D15FE6001C72F9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		103CE86F26D9719000EBAED4 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		AA65BF4424F4605F007E4A1B /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		AA8ACE8024F44E01007DA4D8 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
@@ -46,7 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				AA65BF4424F4605F007E4A1B /* Color+Codable.swift */,
-				10535A3026D15E19001C72F9 /* DailyScrum.swift */,
+				103CE86F26D9719000EBAED4 /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -78,7 +76,6 @@
 				AA8ACE8724F44E03007DA4D8 /* Assets.xcassets */,
 				AA8ACE8C24F44E03007DA4D8 /* Info.plist */,
 				AA8ACE8924F44E03007DA4D8 /* Preview Content */,
-				10535A3326D15FE6001C72F9 /* CardView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -169,11 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10535A3126D15E19001C72F9 /* DailyScrum.swift in Sources */,
+				103CE87026D9719000EBAED4 /* DailyScrum.swift in Sources */,
 				AA8ACE8624F44E01007DA4D8 /* MeetingView.swift in Sources */,
 				AA65BF4524F4605F007E4A1B /* Color+Codable.swift in Sources */,
 				AA8ACE8424F44E01007DA4D8 /* ScrumdingerApp.swift in Sources */,
-				10535A3426D15FE6001C72F9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = DLF2MQ8TCD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -310,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.soumicslab.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = DLF2MQ8TCD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -331,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.soumicslab.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
